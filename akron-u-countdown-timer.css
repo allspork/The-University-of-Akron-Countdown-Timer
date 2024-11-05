@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  .countdown-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+  }
+  .time-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 60px;
+  }
+  .time-number {
+    font-size: calc(3vw + 20px); /* Responsive font size */
+    font-weight: bold;
+    white-space: nowrap;
+  }
+  .colon {
+    font-size: calc(3vw + 20px); /* Responsive font size */
+    font-weight: bold;
+    margin: 0 5px;
+  }
+  .days, .hours, .minutes {
+    color: #19266D;
+  }
+  .seconds {
+    color: #CAB68E;
+  }
