@@ -35,3 +35,9 @@ body {
   .seconds {
     color: #CAB68E;
   }
+
+ @media screen and (max-width: 700px){
+        .time-number {
+            font-size: calc(3vw + 60px);
+        }
+    }
